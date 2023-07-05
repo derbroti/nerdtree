@@ -2,6 +2,7 @@
 
 Contains some changes to the user interface that were not configurable.
 
+---
 
 ![Help Wanted](http://blog.ncce.org/wp-content/uploads/2013/12/help-wanted.jpg)
 
