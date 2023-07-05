@@ -1,3 +1,8 @@
+## Fork Note
+
+Contains some changes to the user interface that were not configurable.
+
+
 ![Help Wanted](http://blog.ncce.org/wp-content/uploads/2013/12/help-wanted.jpg)
 
 **NERDTree** is on the lookout for a new maintainer. See [issue #1280](https://github.com/preservim/nerdtree/issues/1280) to submit your name for consideration.
