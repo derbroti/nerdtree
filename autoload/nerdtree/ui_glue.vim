@@ -716,7 +716,8 @@ function! nerdtree#ui_glue#upDir(preserveState) abort
     endif
 
     call b:NERDTree.changeRoot(l:newRoot)
-    call l:oldRoot.putCursorHere(0, 0)
+    " call l:oldRoot.putCursorHere(0, 0)
+    call cursor(1,1)
 endfunction
 
 " FUNCTION: s:upDirCurrentRootOpen() {{{1
