@@ -415,10 +415,10 @@ function! s:UI.render()
     endif
 
     " add the 'up a dir' line
-    if !self.isMinimal()
+    " if !self.isMinimal()
         call setline(line('.')+1, s:UI.UpDirLine())
         call cursor(line('.')+1, col('.'))
-    endif
+    " endif
 
     " draw the header line
     let header = self.nerdtree.root.path.str({'format': 'UI', 'truncateTo': winwidth(0)})
