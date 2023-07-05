@@ -1,9 +1,9 @@
-let s:tree_up_dir_line = '.. (up a dir)'
+" let s:tree_up_dir_line = '../'
 syn match NERDTreeIgnore #\~#
 exec 'syn match NERDTreeIgnore #\['.g:NERDTreeGlyphReadOnly.'\]#'
 
 "highlighting for the .. (up dir) line at the top of the tree
-execute "syn match NERDTreeUp #\\V". s:tree_up_dir_line .'#'
+" execute "syn match NERDTreeUp #\\V". s:tree_up_dir_line .'#'
 
 "quickhelp syntax elements
 syn match NERDTreeHelpKey #" \{1,2\}[^ ]*:#ms=s+2,me=e-1

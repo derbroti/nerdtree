@@ -526,7 +526,7 @@ endfunction
 
 " FUNCTION: s:UI.UpDirLine() {{{1
 function! s:UI.UpDirLine()
-    return '.. (up a dir)'
+    return '../'
 endfunction
 
 " vim: set sw=4 sts=4 et fdm=marker:
