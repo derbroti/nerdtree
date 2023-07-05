@@ -125,7 +125,7 @@ endfunction
 "handle the user activating the updir line
 function! s:activateAll() abort
     if getline('.') ==# g:NERDTreeUI.UpDirLine()
-        return nerdtree#ui_glue#upDir(0)
+        return nerdtree#ui_glue#upDir(1)
     endif
 endfunction
 
